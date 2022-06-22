@@ -32,8 +32,6 @@ module openconfig-aaa {
     Portions of this model reuse data definitions or structure from
     RFC 7317 - A YANG Data Model for System Management";
 
-  oc-ext:openconfig-version "0.5.0";
-
   revision "2020-07-30" {
     description
       "Add secret-key-hashed for TACACS and RADIUS.";
@@ -87,6 +85,7 @@ module openconfig-aaa {
   oc-ext:regexp-posix;
   oc-ext:catalog-organization "openconfig";
   oc-ext:origin "openconfig";
+  oc-ext:openconfig-version "0.5.0";
 
   // identity statements
 
